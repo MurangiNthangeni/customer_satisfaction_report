@@ -8,6 +8,7 @@
 
 np.random.seed(1)
 customers = ['Customer A', 'Customer B', 'Customer C', 'Customer D', 'Customer E']
+
 responses = np.random.choice(['Very Satisfied', 'Satisfied', 'Neutral', 'Unsatisfied', 'Very Unsatisfied'], size=50)
  
 survey_data = pd.DataFrame({
